@@ -2,5 +2,3 @@ fastapi
 python-dotenv
 uvicorn
 pydantic
-
-pytest

@@ -4,6 +4,5 @@ install:
 run:
 	python3 -m api
 
-
 test:
-	pytest --cov=./
+	python3 -m unittest discover -s tests -p '*_test.py'
